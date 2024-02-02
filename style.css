@@ -1,0 +1,84 @@
+ *{
+    max-width: 11000px;
+    margin: 0 auto;
+ }
+ .card{
+    
+ }
+ .card-thumbnail{
+    display: flex;
+    margin: 10px;
+ }
+ .card-title{
+    display: flex;
+ }
+ .card-desc{
+    display: flex;
+ }
+ .card-desc button{
+    gap: 8px;
+    border: none;
+    border-radius: 47px;
+    background: rgba(127, 86, 217, 1);
+    color: white;
+    width: Fixed (193px)
+    height: Fixed (63px)
+    padding: 16px, 28px, 16px, 28px;
+ }
+ .card-banner{
+   text-align: center;
+   width: 1411px;
+   height: 130px;
+ }
+ .card-orangered{
+    color: rgba(239, 103, 13, 1);
+ }
+ .card-purple{
+    color: rgba(127, 86, 217, 1);
+ }
+ .card-text-purpe{
+   color: rgba(126, 126, 170, 1);
+   text-align: center;
+   height: 100px;
+ }
+ .card-button{
+   text-align: center;
+ }
+ .card-button-orangered{
+   border: none;
+   background: rgba(255, 105, 5, 1);
+   color: rgba(255, 255, 255, 1);
+   width: 297px;
+   height: 80px;
+   border-radius: 40px;
+ }
+ .card-button-purple{
+   border: none;
+   background: rgba(127, 86, 217, 1);
+   color: rgba(255, 255, 255, 1);
+   width: 297px;
+   height: 80px;
+   border-radius: 40px;
+ }
+ .card-quote{
+   color: rgba(127, 86, 217, 1);
+ }
+ .card-btg{
+   color: rgba(126, 126, 170, 1);
+ }
+ .card-avatar{
+   flex-wrap: wrap;
+ }
+ .card-avatar-image{
+  width: 1780px;
+  height: 610px;
+ }
+ .card-test{
+  color: rgba(29, 29, 69, 1);
+ }
+ .card-what{
+  color: rgba(126, 126, 170, 1);
+ }
+ .card-introduce{
+  display: flex;
+ }
