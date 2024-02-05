@@ -2,19 +2,20 @@
     max-width: 11000px;
     margin: 0 auto;
  }
- .card{
-    
- }
+
  .card-thumbnail{
     display: flex;
     margin: 10px;
  }
+
  .card-title{
     display: flex;
  }
+
  .card-desc{
     display: flex;
  }
+
  .card-desc button{
     gap: 8px;
     border: none;
@@ -25,60 +26,164 @@
     height: Fixed (63px)
     padding: 16px, 28px, 16px, 28px;
  }
+
  .card-banner{
    text-align: center;
    width: 1411px;
    height: 130px;
  }
+
  .card-orangered{
     color: rgba(239, 103, 13, 1);
  }
+
  .card-purple{
     color: rgba(127, 86, 217, 1);
  }
+
  .card-text-purpe{
    color: rgba(126, 126, 170, 1);
    text-align: center;
    height: 100px;
  }
+
  .card-button{
    text-align: center;
  }
+
  .card-button-orangered{
    border: none;
    background: rgba(255, 105, 5, 1);
    color: rgba(255, 255, 255, 1);
-   width: 297px;
-   height: 80px;
+   width: 150px;
+   height: 60px;
    border-radius: 40px;
  }
+
  .card-button-purple{
    border: none;
    background: rgba(127, 86, 217, 1);
    color: rgba(255, 255, 255, 1);
-   width: 297px;
-   height: 80px;
+   width: 150px;
+   height: 60px;
    border-radius: 40px;
  }
+
+ .card-avatar-img{
+  display: flex; 
+  flex-wrap: wrap;
+ }
+
  .card-quote{
    color: rgba(127, 86, 217, 1);
  }
+
  .card-btg{
    color: rgba(126, 126, 170, 1);
+   margin: 20px;
  }
+
  .card-avatar{
-   flex-wrap: wrap;
+   list-style: none;
  }
+
  .card-avatar-image{
-  width: 1780px;
-  height: 610px;
+  list-style: none;
+  display: flex; 
+  flex-wrap: wrap;
  }
+
+
+
+
  .card-test{
   color: rgba(29, 29, 69, 1);
  }
+
  .card-what{
   color: rgba(126, 126, 170, 1);
  }
+
  .card-introduce{
   display: flex;
  }
+
+ .card-test{
+   text-align: center;
+ }
+
+ .card-what{
+   text-align: center;
+ }
+
+ .card-support{
+  display: flex;
+ }
+
+
+ footer {
+  background-color: #7f56d9;
+  color: #fff;
+  height: 250px;
+}
+
+.footer {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inner{
+  display: flex;
+}
+
+.inner-box-logo{
+  display: flex;
+  margin: 20px;
+  width: 60px;
+  height: 50px;
+}
+
+.inner-box-text{
+  margin: 20px;
+  width: 380px;
+  height: 105px;
+}
+
+.click ul li{
+  list-style: none;
+}
+
+.click-text{
+  margin: 30px;
+  text-align: center;
+  width: 136px;
+  height: 24px;
+}
+
+.inner-click-link{
+  
+  display: flex;
+  width: 150px;
+  height: 40px;
+}
+
+.link-text{
+  margin: 30px;
+}
+
+.link-click-inner{
+  margin: 45px;
+  width: 649.94px;
+  height: 100px;
+}
+
+.link-email{
+  margin: 30px;
+  width: 700px;
+  height: 500px;
+}
+
+.btg-text{
+  margin: 10px;
+}
