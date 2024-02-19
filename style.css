@@ -1,20 +1,38 @@
- *{
-    max-width: 11000px;
-    margin: 0 auto;
+*{
+  padding: 0px;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Caladea", serif; 
+  /*margin: auto;*/
  }
+  
+  ul li{
+    list-style: none;
+  }
 
- .card-thumbnail{
+  .card-ul{
     display: flex;
     margin: 10px;
+  }
+
+  .card-ul li{
+    margin: 10px;
+  }
+
+ .card-thumbnail{
+   display: flex;
  }
 
- .card-title{
-    display: flex;
+ .card-thumbnail a{
+  text-decoration: none;
+  color: #1d1d45;
  }
 
  .card-desc{
     display: flex;
- }
+    
+  }
 
  .card-desc button{
     gap: 8px;
@@ -22,15 +40,20 @@
     border-radius: 47px;
     background: rgba(127, 86, 217, 1);
     color: white;
-    width: Fixed (193px)
-    height: Fixed (63px)
+    width: 100px;
+    height: 45px;
     padding: 16px, 28px, 16px, 28px;
  }
 
  .card-banner{
-   text-align: center;
-   width: 1411px;
-   height: 130px;
+    text-align: center;
+    width: 1411px;
+    height: 130px;
+    margin: -5px;
+ }
+
+ .card-text{
+  text-align: center;
  }
 
  .card-orangered{
@@ -94,31 +117,53 @@
  }
 
 
+ .feed-wrapper {
+  width: 520px;
+  height: 455px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 32px;
+}
 
-
- .card-test{
-  color: rgba(29, 29, 69, 1);
- }
-
- .card-what{
-  color: rgba(126, 126, 170, 1);
- }
-
- .card-introduce{
+.user {
   display: flex;
- }
+  align-items: center;
+  gap: 35px;
+}
 
- .card-test{
-   text-align: center;
- }
+.username {
+  color: #1d1d45;
+  font-size: 28px;
+  font-weight: bold;
+}
+ .feed-content {
+  color: #7e7eaa;
+  font-size: 22px;
+  padding-bottom: 56px;
+  padding-top: 26px;
+}
 
- .card-what{
-   text-align: center;
- }
-
- .card-support{
+.feed-back {
   display: flex;
- }
+  gap: 24px;
+  margin-top: 56px;
+}
+ .lesson {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.lesson-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.lesson-text {
+  font-size: 16px;
+  font-weight: 600;
+}
 
 
  footer {
@@ -152,17 +197,17 @@
 
 .click ul li{
   list-style: none;
+  margin: 5px;
 }
 
 .click-text{
-  margin: 30px;
+  margin: 20px;
   text-align: center;
   width: 136px;
   height: 24px;
 }
 
 .inner-click-link{
-  
   display: flex;
   width: 150px;
   height: 40px;
@@ -173,17 +218,27 @@
 }
 
 .link-click-inner{
-  margin: 45px;
+  margin: 10px;
   width: 649.94px;
   height: 100px;
 }
 
 .link-email{
-  margin: 30px;
-  width: 700px;
-  height: 500px;
+  max-width: 1700px;
+  max-height: 700px;
+ /* width: 700px;
+  height: 700px;
+  */
+  margin: 25px;
+}
+
+.link-click-image{
+  width: 15px;
+  height: 15px;
+  
 }
 
 .btg-text{
   margin: 10px;
 }
+
